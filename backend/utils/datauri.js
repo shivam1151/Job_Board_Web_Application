@@ -1,5 +1,5 @@
 import DataUriParser from "datauri/parser.js"
-
+import multer from 'multer';
 import path from "path";
 
 const getDataUri = (file) => {
